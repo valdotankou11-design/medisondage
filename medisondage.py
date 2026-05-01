@@ -12,7 +12,7 @@ from statistics import mean, median, stdev
 
 app = Flask(__name__)
 
-DATABASE_URL = "postgresql://postgres:joelva%40190708@db.gevxkzpqsimudhzjndfq.supabase.co:5432/postgres"
+DATABASE_URL = "postgresql://postgres:joelva%40190708@db.gevxkzpqsimudhzjndfq.supabase.co:6543/postgres"
 
 # ──────────────────────────────────────────
 # 1. BASE DE DONNÉES PostgreSQL (Supabase)
