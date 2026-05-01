@@ -1,8 +1,4 @@
 {
-  "builds": [
-    { "src": "medisondage.py", "use": "@vercel/python" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "medisondage.py" }
-  ]
+  "builds": [{"src": "medisondage.py", "use": "@vercel/python"}],
+  "routes": [{"src": "/(.*)", "dest": "medisondage.py"}]
 }
