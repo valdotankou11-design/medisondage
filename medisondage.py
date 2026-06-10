@@ -16,7 +16,7 @@ app.secret_key = os.environ.get("SECRET_KEY", secrets.token_hex(32))
 
 # ── Identifiants admin ──────────────────────────────────────
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "admin")
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "medisondage2024")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "jv19010708")
 # ───────────────────────────────────────────────────────────
 
 # ── Détection automatique SQLite / PostgreSQL ───────────────
