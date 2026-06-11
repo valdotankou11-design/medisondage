@@ -1807,6 +1807,12 @@ def offline():
   <p>MédiSondage nécessite une connexion Internet pour synchroniser vos données. Vérifiez votre réseau et réessayez.</p>
   <button onclick="window.location.reload()">Réessayer</button>
 </div>
+<footer style="color: gray">
+<br>
+<br>
+<br>
+    © 2026 SOH TANKOU Joël Valdo - Créateur du jeu Songo
+</footer>
 </body>
 </html>"""
     return Response(html, mimetype="text/html")
